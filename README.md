@@ -10,9 +10,13 @@ React Native
 Android Studio atau Expo Go
 
 
-### Clone repository
+## CLONE REPOSITORY
 
   $ git clone https://github.com/silvester-kw/modified-rc4-mobile
+
+## INSTALL DEPENDENCIES
+
+  $ npm install  
 
 ## HOW TO RUN ON ANDROID STUDIO
 
