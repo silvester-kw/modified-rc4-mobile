@@ -20,7 +20,7 @@ const DecryptText = () => {
     }
     try {
       const directory = FileSystem.documentDirectory;
-      const filename = "encrypted_text.txt";
+      const filename = "decrypted_text.txt";
 
       try {
         const newFile = await FileSystem.writeAsync(`${directory}${filename}`, outputData, { encoding: FileSystem.EncodingType.UTF8 });
@@ -37,7 +37,7 @@ const DecryptText = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Text decryption</Text>
+      <Text style={styles.heading}>Text Decryption</Text>
       <View style={styles.inputContainer}>
         <Text style={styles.label}>Plain Text:</Text>
         <TextInput multiline={true} numberOfLines={5} style={styles.textInput} placeholder="Enter text to decrypt" value={plainText} onChangeText={setPlainText} />
