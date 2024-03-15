@@ -14,7 +14,7 @@ const EncryptText = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Text Encryption</Text>
+      <Text style={styles.heading}>UNDER MAINTENANCE</Text>
       <View style={styles.inputContainer}>
         <Text style={styles.label}>Plain Text:</Text>
         <TextInput multiline={true} numberOfLines={5} style={styles.textInput} placeholder="Enter text to encrypt/decrypt" value={plainText} onChangeText={setPlainText} />
