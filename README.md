@@ -7,22 +7,24 @@
 
 prequisite :
 React Native
+Android Studio atau Expo Go
 
 
 ### Clone repository
 
   $ git clone https://github.com/silvester-kw/modified-rc4-mobile
 
-## ANDROID STUDIO
+## HOW TO RUN ON ANDROID STUDIO
 
   $ npm run android
   
   
 
-## EXPO GO
+## HOW TO RUN ON EXPO GO
 
   $ npx expo start
-  scan dengan aplikasi expo go
+  
+  scan QR code dengan aplikasi expo go
 
 
 ## Kontributor
