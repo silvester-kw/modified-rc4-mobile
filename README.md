@@ -7,33 +7,25 @@
 
 prequisite :
 React Native
-Expo
 
-### 1. Clone repository
+
+### Clone repository
 
   $ git clone https://github.com/silvester-kw/modified-rc4-mobile
 
-### 2. Install dependency
+## ANDROID STUDIO
 
-  $ npm install
-
-### 3. Run development
+  $ npm run android
   
-  $ npx expo start
+  
 
-### 4. Buka melalui expo go atau emulator
+## EXPO GO
+
+  $ npx expo start
+  scan dengan aplikasi expo go
 
 
 ## Kontributor
 
 - 18221049 - Silvester Kresna W. P. P.
 - 18221080 - Fakhri Putra Mahardika
-
-## Spesifikasi
-
-| No  | Feature                  | Success (✔) | Fail (❌) | Details                                                                                           |
-| :-: | :----------------------- | :---------- | :-------- | :-----------------------------------------------------------------------------------------------  |
-|  1  | Encrypt text             | ✔           |           |                                                                                                   |
-|  2  | Decrypt text             | ✔           |           |                                                                                                   |
-|  3  | Decrypt File             |             | ✔         |                                                                                                   |
-|  4  | Encrypt File             |             | ✔         |                                                                                                   |
